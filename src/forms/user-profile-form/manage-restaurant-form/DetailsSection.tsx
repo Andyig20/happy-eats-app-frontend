@@ -66,7 +66,7 @@ import {
           name="deliveryPrice"
           render={({ field }) => (
             <FormItem className="max-w-[25%]">
-              <FormLabel>Delivery price (£)</FormLabel>
+              <FormLabel>Food Importers </FormLabel>
               <FormControl>
                 <Input {...field} className="bg-white" placeholder="1.50" />
               </FormControl>
@@ -79,7 +79,7 @@ import {
           name="estimatedDeliveryTime"
           render={({ field }) => (
             <FormItem className="max-w-[25%]">
-              <FormLabel>Estimated Delivery Time (minutes)</FormLabel>
+              <FormLabel>Delivery People</FormLabel>
               <FormControl>
                 <Input {...field} className="bg-white" placeholder="30" />
               </FormControl>
